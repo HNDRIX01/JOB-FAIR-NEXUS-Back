@@ -29,9 +29,12 @@ SECRET_KEY = 'django-insecure-i)_#g%908#vu!)&_b#ors0y=$inajebvj31@kye(#@8&9nia*t
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    "http://localhost:3000",  # Allow localhost:3000 (frontend URL)
-    "https://job-fair-front-prod.vercel.app",
+    "localhost",
+    "127.0.0.1",
+    "job-fair-nexus-back.onrender.com",
+    "job-fair-front-prod.vercel.app",
 ]
+
 
 
 # Application definition
@@ -78,11 +81,8 @@ TEMPLATES = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",  # Allow localhost:3000 (frontend URL)
-    "job-fair-nexus-back.onrender.com",
-    "https://job-fair-front-prod.vercel.app",
-    
-    
+    "http://localhost:3000",  # Local development frontend
+    "https://job-fair-front-prod.vercel.app",  # Deployed frontend
 ]
 CORS_ALLOW_ALL_ORIGINS = True
 
