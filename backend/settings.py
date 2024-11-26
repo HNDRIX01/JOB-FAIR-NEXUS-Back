@@ -79,6 +79,7 @@ TEMPLATES = [
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",  # Allow localhost:3000 (frontend URL)
+    "job-fair-nexus-back.onrender.com",
     "https://job-fair-front-prod.vercel.app",
     
     
