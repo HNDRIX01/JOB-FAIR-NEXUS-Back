@@ -84,7 +84,7 @@ class InsightView(APIView):
             
         )
 
-        keyAPI = "AIzaSyDuYirRA9HLyWe3d8Yb1CAoWfacABNwWT4"
+        keyAPI = "AIzaSyBAhEvpK9qZCVfpWQEQwllG2iZ0OfsA-L0"
         
         print("Prompt sent to GEMINI:", user_prompt)
 
